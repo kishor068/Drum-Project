@@ -1,0 +1,80 @@
+body {
+  background-color: rgb(0, 0, 0);
+}
+.head
+{
+    color: white;
+}
+.drums {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 12rem;
+}
+/* .d
+{
+
+    padding: 2rem;
+} */
+.d1
+{
+    background: url(images/tom1.png);
+    width: 10rem;
+    height: 10rem;
+
+}
+.d2
+{
+    background: url(images/tom2.png);
+    width: 10rem;
+    height: 10rem;
+
+}
+.d3
+{
+    background: url(images/tom3.png);
+    width: 10rem;
+    height: 10rem;
+
+}
+.d4
+{
+    background: url(images/tom4.png);
+    width: 10rem;
+    height: 10rem;
+
+}
+.d5
+{
+    background: url(images/crash.png);
+    width: 10rem;
+    height: 10rem;
+
+}
+.d6
+{
+    background: url(images/kick.png);
+    width: 10rem;
+    height: 10rem;
+
+}
+.d7
+{
+    background: url(images/snare.png);
+    width: 10rem;
+    height: 10rem;
+
+}
+.dname
+{
+    color: rgb(0, 241, 249);
+    position: relative;
+    top: 60px;
+    /* border: 2px solid black; */
+    font-size:3rem ;
+}
+.d
+{
+    border: 5px solid white;
+    border-radius: 30px;
+}
