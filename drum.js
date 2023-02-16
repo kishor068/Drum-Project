@@ -49,3 +49,13 @@ function makeSound(key)
               break;           
   }
 }
+
+document.addEventListener("keypress",function(e)
+{
+   console.log(e.key+"Pressed");
+   if(e.key=="m")
+   {
+    var a=new Audio("sounds/tom-2.mp3");
+    a.play();
+   }
+});
